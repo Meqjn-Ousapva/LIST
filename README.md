@@ -8,7 +8,7 @@ standards and operations.
 
 INCLUDING:
   Standards:
-    Numerical List Standard(NLS)
+    Numerical List Standard(NLS)\n
     Binary List Standard(BLS)
     Numerical Function Standard(NFS)
     
