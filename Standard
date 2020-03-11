@@ -1,0 +1,61 @@
+--------------------------------
+Catalogue:
+	~ Numerical List Standard (NLS)
+	~~ NLS Special Case: 0-1 List Standard (BLS)
+	~ Numerical Function Standard (NFS)
+	~ 
+--------------------------------
+
+
+--------------------------------
+Numerical List Standard:
+
+  Every Numerical List is defined as:
+  
+	numerical_type*
+  
+  In which:
+	-numerical_type can be int/float/double any Numerical C_type,
+		list cntains "List Character(s)"
+	-L-C(List Character) follows:
+		L-C[0]=element number;
+		For ALL L-C[!=0]=elements;
+	- Example:
+		X follows "NLS": X[0]=3; X[1]=X[2]=X[3]=Any Integer;
+--------------------------------
+
+
+--------------------------------
+0-1 List Standard:
+
+  Every 0-1 List is defined as:
+  
+	int*
+  
+  In which:
+	-L-C follows:
+		L-C[0] = 0-1 squence length, Not "C List" length;
+		from L-C[1], "every bit" stands for elements;
+	-Example:
+		X follows "BLS"; X[0]=8;X[1]=0xff000000;
+		or X[1]=1111 1111 0000.......0000;
+--------------------------------
+
+
+--------------------------------
+Numerical Function Standard:
+
+  Every Numerical Function is defined as:
+  
+	numerical_type(* Func)(number_type*)
+
+  In which:
+	-Func is a function-pionter;
+	-parameter "numerical_type*" called "para character(s)",
+		contains "para num" and "para values";
+
+	-P-C(Para Character) follows "Numerical List Standard":
+		P-C =numerical_type*;
+		P-C[0] =para num, which confines the "P-C size";
+		For All P-C[i!=0] =para values;
+--------------------------------
