@@ -7,15 +7,21 @@ that will easily read for me.
 standards and operations.
 
 INCLUDING:
+
   Standards:
+  
     Numerical List Standard(NLS) 
+    
     Binary List Standard(BLS) 
+    
     Numerical Function Standard(NFS) 
+    
     
     [updating...]
   
   
   LIST operations:
+  
     PRK4( Multivariate Fourth-order Runge-Kuta Method ) 
     
     [updating...]
